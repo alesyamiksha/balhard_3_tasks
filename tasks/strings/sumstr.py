@@ -19,7 +19,8 @@ def sum_str(first_str: str, second_str: str) -> str:
 
     :return: результат склеивания
     """
-    result = None
+
+    result = first_str + " " + second_str
     return result
 
 

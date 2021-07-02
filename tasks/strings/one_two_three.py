@@ -25,6 +25,7 @@ def process_numbers(numbers: str) -> str:
     :return: обработанная строка
     """
 
+    numbers = .replace("1", "uno")
 
 
 
