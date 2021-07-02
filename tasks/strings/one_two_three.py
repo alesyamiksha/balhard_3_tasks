@@ -24,8 +24,8 @@ def process_numbers(numbers: str) -> str:
 
     :return: обработанная строка
     """
-    result = None
-    return result
+
+
 
 
 if __name__ == '__main__':
