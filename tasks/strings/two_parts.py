@@ -26,7 +26,7 @@ def split_to_parts(str_to_split: str) -> tuple:
     :return: кортеж с двумя частями
     """
 
-    str_length = len(str_to_split.replace(' ', ''))
+    str_length = len(str_to_split)
     if str_length % 2 == 0:
         part_1 = str_to_split[:str_length // 2]
         part_2 = str_to_split[str_length // 2:]
@@ -34,6 +34,7 @@ def split_to_parts(str_to_split: str) -> tuple:
         part_1 = str_to_split[:round((str_length // 2), 0) + 1]
         part_2 = str_to_split[round((str_length // 2), 0) + 1:]
     return part_1, part_2
+
 
 if __name__ == '__main__':
     string = input('Введите строку для разбивки: ')
